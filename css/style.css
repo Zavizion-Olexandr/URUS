@@ -103,6 +103,7 @@ body {
   top: 50px;
   bottom: 0;
   margin: auto;
+  max-width: 100%;
 }
 
 .info {
@@ -170,4 +171,140 @@ body {
 
 .info__gallery img {
   max-width: 100%;
+}
+
+.color {
+  background-color: #f8f8f8;
+}
+
+.color__text {
+  text-align: center;
+  text-decoration: uppercase;
+  font-size: 160px;
+  margin-bottom: 70px;
+}
+.color__gallery {
+  background-color: #13171c;
+}
+
+.color__gallery-start .color__gallery-end {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.gallery-box {
+  padding: 170px 50px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 20px;
+}
+
+.gallery-box img {
+  max-width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.gallery-box__text {
+  color: #fff;
+  font-size: 36px;
+}
+.contacts {
+  padding: 170px 0 100px;
+  background-color: #13171c;
+}
+.contacts__title {
+  text-align: center;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+  font-size: 36px;
+  color: #ff5017;
+}
+.contacts__box {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px 200px;
+  padding-left: 300px;
+  padding-right: 150px;
+}
+.contacts__info {
+  max-width: 565px;
+}
+.contacts__headtext {
+  color: #bcbcbc;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.contacts__text,
+.contacts__text-rules,
+.phone {
+  color: #fff;
+}
+
+.contacts__text {
+  padding-top: 10px;
+  margin-bottom: 20px;
+  max-width: 477px;
+}
+.contacts__text-rules {
+  padding-top: 77px;
+  font-size: 14px;
+  max-width: 330px;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  max-width: 594px;
+  padding: 10px;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+.form__input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.form {
+  flex-basis: 594px;
+}
+
+.form__order {
+  width: 100%;
+}
+.footer {
+  text-align: center;
+  padding: 15px 0 90px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #13171c;
+}
+
+@media (max-width: 1200px) {
+  .title {
+    font-size: 280px;
+    padding-left: 0;
+  }
+  .subtitle {
+    font-size: 140px;
+    padding-right: 0;
+  }
+  .header__images {
+    top: 0;
+  }
 }
